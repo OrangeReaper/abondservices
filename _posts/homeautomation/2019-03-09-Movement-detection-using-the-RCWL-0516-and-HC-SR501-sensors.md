@@ -16,9 +16,9 @@ image:
     title: movement-detection.png
     caption_url: http://unsplash.com
 ---
-Using [Home Assistant]() My objective was to implement motion detection in my hallway and, if it is dark, switch on a light until motion is no longer detected. My first attempt was with the HC-SR501; this “worked” but I had issues with the light turning on upto 3 times an hour when no-one was present in the hallway. Next I tried the RCWL-0516; this “worked” as well as the HC-SR501 (ie false triggering several times an hour).
+Using [Home Assistant](https://www.home-assistant.io/) My objective was to implement motion detection in my hallway and, if it is dark, switch on a light until motion is no longer detected. My first attempt was with the HC-SR501; this “worked” but I had issues with the light turning on upto 3 times an hour when no-one was present in the hallway. Next I tried the RCWL-0516; this “worked” as well as the HC-SR501 (ie false triggering several times an hour).
 
-So, in my experience, both the RCWL-0516 and the HC-SR501 reliably detect ‘real movement’ but a quick search on the internet shows false triggering to be a common problem with them; ie they are both very cheap but suffer from this downside.
+So, in my experience, both the RCWL-0516 and the HC-SR501 reliably detect ‘real movement’ but, a quick search on the internet shows false triggering to be a common problem with them; ie they are both very cheap but suffer from this downside.
 
 HC-SR501 set up: Counterintuitively, With some experimentation, I discovered that the false triggering decreased when the sensitivity was increased; I slowly increased the sensitivity until the false triggers occurred several hours apart and set the ‘delay’ potentiometer to around 3 seconds.
 
