@@ -14,7 +14,7 @@ categories:
 image:
     thumb: movement-detection-thumb.png
     title: movement-detection.png
-    caption_url: http://unsplash.com
+    caption_url: https://www.abondservices.com
 ---
 Using [Home Assistant](https://www.home-assistant.io/) My objective was to implement motion detection in my hallway and, if it is dark, switch on a light until motion is no longer detected. My first attempt was with the HC-SR501; this “worked” but I had issues with the light turning on upto 3 times an hour when no-one was present in the hallway. Next I tried the RCWL-0516; this “worked” as well as the HC-SR501 (ie false triggering several times an hour).
 
