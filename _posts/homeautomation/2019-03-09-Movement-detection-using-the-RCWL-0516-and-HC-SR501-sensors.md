@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Home Automation
 title:  "Movement detection using the RCWL-0516 and HC-SR501 sensors"
 teaser: "A novel solution to false triggering."
-breadcrumb: true
+breadcrumb: false
 tags:
     - movement detection
     - rcwl-0516

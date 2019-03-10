@@ -4,7 +4,7 @@ sidebar: left
 subheadline: System Engineering
 title:  "Verification and Validation"
 teaser: "What's the difference?"
-breadcrumb: true
+breadcrumb: false
 tags:
     - Verification
     - Validation
